@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gemini 3 - Smart Wheel Pro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="app-container">
+        <div class="wheel-section">
+            <h1 class="main-title">LUCKY SPIN</h1>
+            <div class="canvas-container">
+                <div class="indicator"></div>
+                <canvas id="wheelCanvas"></canvas>
+                <button id="spinBtn">SPIN</button>
+            </div>
+            <div id="winnerPopup" class="winner-display">
+                <span id="winnerText">- รอลุ้นรางวัล -</span>
+            </div>
+        </div>
+
+        <div class="admin-section">
+            <div class="admin-header">
+                <h2>ตารางโชค</h2>
+                <button id="addBtn" class="primary-add-btn">+ เพิ่มรายการ</button>
+            </div>
+            
+            <div id="itemList" class="item-list-container">
+                </div>
+
+            <button id="applyBtn" class="save-btn">อัปเดตวงล้อ</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
